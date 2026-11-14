@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/listing/house",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Good · 7ozombol",
+      "hasCanvas": false,
+      "bodyTextLen": 966,
+      "bodyTextHash": "c844ced80e1a3970435fbbadd6a0d6d4953bee41a94c00667c8333015b55ddba",
+      "bodyTextPrefix": "7ozombol Market My stall Trades 1 7ozombols 9,800 7oz List a goo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Good · 7ozombol",
+      "hasCanvas": false,
+      "bodyTextLen": 909,
+      "bodyTextHash": "819b7c4e40d0840dbb91918031b4398d6e04e4e0506c7f3f799e0f9c4611db37",
+      "bodyTextPrefix": "7ozombol Market HOMES · PALMA White house with a long pool Inez ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/house-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/house-smoke.json"
+}

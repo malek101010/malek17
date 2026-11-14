@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/list",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "List a good · 7ozombol",
+      "hasCanvas": false,
+      "bodyTextLen": 1250,
+      "bodyTextHash": "fbfb840cdef9feec6f9f98e83858d91a1b14dd2f7c58cd876c3ddc1b1b6dcbf6",
+      "bodyTextPrefix": "7ozombol Market My stall Trades 1 7ozombols 9,800 7oz List a goo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/list-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "List a good · 7ozombol",
+      "hasCanvas": false,
+      "bodyTextLen": 1193,
+      "bodyTextHash": "58ad5d656cd7f3d057bfb74a1a1ba4f9ab7b647486821be6957751e2a3ae3741",
+      "bodyTextPrefix": "7ozombol YOUR STALL List a good Photographs and a detailed descr",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/list-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/list-smoke.json"
+}

@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --font-sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --color-ink: #1c1712;
+  --color-cream: #f4efe6;
+  --color-paper: #fbf7f1;
+  --color-brass: #9a7040;
+  --color-brass-deep: #6f4e2a;
+  --color-clay: #8d3b2e;
+  --color-clay-deep: #6e2c22;
+  --color-line: #e3d8c8;
+  --color-muted: #6d645b;
+}
+
+@utility dialog-panel {
+  max-height: min(40rem, calc(100dvh - 4rem));
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-cream);
+    color: var(--color-ink);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-cream);
+    color: var(--color-ink);
+    min-height: 100dvh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brass);
+    outline-offset: 3px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .card-photo {
+    transition: transform 300ms ease-out;
+  }
+
+  .group:hover .card-photo {
+    transform: scale(1.03);
+  }
+
+  .tap {
+    transition: transform 150ms ease-out;
+  }
+
+  .tap:active:not(:disabled) {
+    transform: scale(0.96);
+  }
+}
