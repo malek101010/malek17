@@ -284,7 +284,7 @@ export const SEED_LISTINGS: Listing[] = [
     city: "6-october",
     condition: "New",
     description:
-      " OOA set of four clay mugs, thrown and glazed by hand. No two are the same: the rims dip slightly and the glaze runs darker toward the foot. They are food-safe, hold about 300 ml, and have never been used. The set travels in one crate. I will exchange them for another handmade piece, or for 7ozombols.",
+      "A set of four clay mugs, thrown and glazed by hand. No two are the same: the rims dip slightly and the glaze runs darker toward the foot. They are food-safe, hold about 300 ml, and have never been used. The set travels in one crate. I will exchange them for another handmade piece, or for 7ozombols.",
     images: ["/catalog/handmade.jpg"],
     mode: "either",
     ozombols: 640,
