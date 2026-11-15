@@ -1,12 +1,12 @@
 import { i as __toESM } from "../_runtime.mjs";
+import { a as Oz, b as useDesk, c as TextArea, f as deskMoney, g as modeLabel, h as formatWhen, m as formatOz, p as figureLabel, r as Eyebrow, s as Shell, t as Button, v as statusLabel } from "./shell-B_Z_U4m9.mjs";
+import { n as Photo, t as Clip } from "./photo-hLfkum1j.mjs";
+import { n as Route } from "./router-DMTZ25Iw.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
-import { n as Route } from "./router-D6UJOlep.mjs";
-import { _ as statusLabel, d as deskMoney, f as figureLabel, h as modeLabel, i as Oz, m as formatWhen, n as Eyebrow, o as Shell, p as formatOz, s as TextArea, t as Button, y as useDesk } from "./shell-QKflq9RQ.mjs";
-import { n as Photo, t as Clip } from "./photo-BHU_K5ZP.mjs";
 import { a as DialogOverlay, i as DialogDescription, n as DialogClose, o as DialogPortal, r as DialogContent, s as DialogTitle, t as Dialog } from "../_libs/@radix-ui/react-dialog+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/listing._id-NA8J-is8.js
+// node_modules/.nitro/vite/services/ssr/assets/listing._id-s0B8dcG1.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function SwapDialog({ listing, open, onOpenChange }) {
@@ -427,5 +427,4 @@ function ListingPage() {
 		}) : null
 	] });
 }
-//#endregion
 export { ListingPage as component };

@@ -1,13 +1,12 @@
 import { i as __toESM, t as __commonJSMin } from "../../_runtime.mjs";
 import { n as require_react, t as useComposedRefs } from "./react-compose-refs+[...].mjs";
-import { n as require_jsx_runtime, t as createContextScope } from "../radix-ui__react-context+react.mjs";
 import { t as composeEventHandlers } from "../radix-ui__primitive.mjs";
+import { n as require_jsx_runtime, t as createContextScope } from "../radix-ui__react-context+react.mjs";
 import { __assign, __rest, __spreadArray } from "tslib";
-//#region node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs
+// node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
 var useLayoutEffect2 = globalThis?.document ? import_react.useLayoutEffect : () => {};
-//#endregion
-//#region node_modules/@radix-ui/react-id/dist/index.mjs
+// node_modules/@radix-ui/react-id/dist/index.mjs
 var __defProp$11 = Object.defineProperty;
 var __name$11 = (target, value) => __defProp$11(target, "name", {
 	value,
@@ -23,8 +22,7 @@ function useId(deterministicId) {
 	return deterministicId || (id ? `radix-${id}` : "");
 }
 __name$11(useId, "useId");
-//#endregion
-//#region node_modules/@radix-ui/react-use-effect-event/dist/index.mjs
+// node_modules/@radix-ui/react-use-effect-event/dist/index.mjs
 var __defProp$10 = Object.defineProperty;
 var __name$10 = (target, value) => __defProp$10(target, "name", {
 	value,
@@ -46,8 +44,7 @@ function useEffectEvent(callback) {
 	return import_react.useMemo(() => ((...args) => ref.current?.(...args)), []);
 }
 __name$10(useEffectEvent, "useEffectEvent");
-//#endregion
-//#region node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs
+// node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs
 var __defProp$9 = Object.defineProperty;
 var __name$9 = (target, value) => __defProp$9(target, "name", {
 	value,
@@ -148,8 +145,7 @@ function useControllableStateReducer(reducer, userArgs, initialArg, init) {
 	return [state, dispatch];
 }
 __name$9(useControllableStateReducer, "useControllableStateReducer");
-//#endregion
-//#region node_modules/react-dom/cjs/react-dom.production.js
+// node_modules/react-dom/cjs/react-dom.production.js
 /**
 * @license React
 * react-dom.production.js
@@ -301,8 +297,7 @@ var require_react_dom_production = /* @__PURE__ */ __commonJSMin(((exports) => {
 	};
 	exports.version = "19.3.0";
 }));
-//#endregion
-//#region node_modules/react-dom/index.js
+// node_modules/react-dom/index.js
 var require_react_dom = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	function checkDCE() {
 		if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -315,8 +310,7 @@ var require_react_dom = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	checkDCE();
 	module.exports = require_react_dom_production();
 }));
-//#endregion
-//#region node_modules/@radix-ui/react-slot/dist/index.mjs
+// node_modules/@radix-ui/react-slot/dist/index.mjs
 var import_react_dom = /* @__PURE__ */ __toESM(require_react_dom(), 1);
 var __defProp$8 = Object.defineProperty;
 var __name$8 = (target, value) => __defProp$8(target, "name", {
@@ -438,8 +432,7 @@ var createSlottableError = /* @__PURE__ */ __name$8((ownerName) => {
 	return `${ownerName} failed to slot onto its \`Slottable\`. Expected \`Slottable\` to receive a single React element child.`;
 }, "createSlottableError");
 var use = import_react[" use ".trim().toString()];
-//#endregion
-//#region node_modules/@radix-ui/react-primitive/dist/index.mjs
+// node_modules/@radix-ui/react-primitive/dist/index.mjs
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp$7 = Object.defineProperty;
 var __name$7 = (target, value) => __defProp$7(target, "name", {
@@ -485,8 +478,7 @@ function dispatchDiscreteCustomEvent(target, event) {
 	if (target) import_react_dom.flushSync(() => target.dispatchEvent(event));
 }
 __name$7(dispatchDiscreteCustomEvent, "dispatchDiscreteCustomEvent");
-//#endregion
-//#region node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs
+// node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs
 var __defProp$6 = Object.defineProperty;
 var __name$6 = (target, value) => __defProp$6(target, "name", {
 	value,
@@ -500,8 +492,7 @@ function useCallbackRef$1(callback) {
 	return import_react.useMemo(() => ((...args) => callbackRef.current?.(...args)), []);
 }
 __name$6(useCallbackRef$1, "useCallbackRef");
-//#endregion
-//#region node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs
+// node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs
 var __defProp$5 = Object.defineProperty;
 var __name$5 = (target, value) => __defProp$5(target, "name", {
 	value,
@@ -764,8 +755,7 @@ function handleAndDispatchCustomEvent(name, handler, detail, { discrete }) {
 	else target.dispatchEvent(event);
 }
 __name$5(handleAndDispatchCustomEvent, "handleAndDispatchCustomEvent");
-//#endregion
-//#region node_modules/@radix-ui/react-focus-scope/dist/index.mjs
+// node_modules/@radix-ui/react-focus-scope/dist/index.mjs
 var __defProp$4 = Object.defineProperty;
 var __name$4 = (target, value) => __defProp$4(target, "name", {
 	value,
@@ -1009,8 +999,7 @@ function removeLinks(items) {
 	return items.filter((item) => item.tagName !== "A");
 }
 __name$4(removeLinks, "removeLinks");
-//#endregion
-//#region node_modules/@radix-ui/react-portal/dist/index.mjs
+// node_modules/@radix-ui/react-portal/dist/index.mjs
 var __defProp$3 = Object.defineProperty;
 var __name$3 = (target, value) => __defProp$3(target, "name", {
 	value,
@@ -1026,8 +1015,7 @@ var Portal = /* @__PURE__ */ import_react.forwardRef(/* @__PURE__ */ __name$3(fu
 		ref: forwardedRef
 	}), container) : null;
 }, "Portal"));
-//#endregion
-//#region node_modules/@radix-ui/react-presence/dist/index.mjs
+// node_modules/@radix-ui/react-presence/dist/index.mjs
 var __defProp$2 = Object.defineProperty;
 var __name$2 = (target, value) => __defProp$2(target, "name", {
 	value,
@@ -1168,8 +1156,7 @@ function getElementRef(element) {
 	return element.props.ref || element.ref;
 }
 __name$2(getElementRef, "getElementRef");
-//#endregion
-//#region node_modules/@radix-ui/react-focus-guards/dist/index.mjs
+// node_modules/@radix-ui/react-focus-guards/dist/index.mjs
 var __defProp$1 = Object.defineProperty;
 var __name$1 = (target, value) => __defProp$1(target, "name", {
 	value,
@@ -1214,8 +1201,7 @@ function createFocusGuard() {
 	return element;
 }
 __name$1(createFocusGuard, "createFocusGuard");
-//#endregion
-//#region node_modules/react-remove-scroll-bar/dist/es2015/constants.js
+// node_modules/react-remove-scroll-bar/dist/es2015/constants.js
 var zeroRightClassName = "right-scroll-bar-position";
 var fullWidthClassName = "width-before-scroll-bar";
 var noScrollbarsClassName = "with-scroll-bars-hidden";
@@ -1224,8 +1210,7 @@ var noScrollbarsClassName = "with-scroll-bars-hidden";
 * ! might be undefined ! use will fallback!
 */
 var removedBarSizeVariable = "--removed-body-scroll-bar-size";
-//#endregion
-//#region node_modules/use-callback-ref/dist/es2015/assignRef.js
+// node_modules/use-callback-ref/dist/es2015/assignRef.js
 /**
 * Assigns a value for a given ref, no matter of the ref format
 * @param {RefObject} ref - a callback function or ref object
@@ -1244,8 +1229,7 @@ function assignRef(ref, value) {
 	else if (ref) ref.current = value;
 	return ref;
 }
-//#endregion
-//#region node_modules/use-callback-ref/dist/es2015/useRef.js
+// node_modules/use-callback-ref/dist/es2015/useRef.js
 /**
 * creates a MutableRef with ref change callback
 * @param initialValue - initial ref value
@@ -1282,8 +1266,7 @@ function useCallbackRef(initialValue, callback) {
 	ref.callback = callback;
 	return ref.facade;
 }
-//#endregion
-//#region node_modules/use-callback-ref/dist/es2015/useMergeRef.js
+// node_modules/use-callback-ref/dist/es2015/useMergeRef.js
 var useIsomorphicLayoutEffect = typeof window !== "undefined" ? import_react.useLayoutEffect : import_react.useEffect;
 var currentValues = /* @__PURE__ */ new WeakMap();
 /**
@@ -1323,8 +1306,7 @@ function useMergeRefs(refs, defaultValue) {
 	}, [refs]);
 	return callbackRef;
 }
-//#endregion
-//#region node_modules/use-sidecar/dist/es2015/medium.js
+// node_modules/use-sidecar/dist/es2015/medium.js
 function ItoI(a) {
 	return a;
 }
@@ -1403,8 +1385,7 @@ function createSidecarMedium(options) {
 	}, options);
 	return medium;
 }
-//#endregion
-//#region node_modules/use-sidecar/dist/es2015/exports.js
+// node_modules/use-sidecar/dist/es2015/exports.js
 var SideCar = function(_a) {
 	var sideCar = _a.sideCar, rest = __rest(_a, ["sideCar"]);
 	if (!sideCar) throw new Error("Sidecar: please provide `sideCar` property to import the right car");
@@ -1417,11 +1398,9 @@ function exportSidecar(medium, exported) {
 	medium.useMedium(exported);
 	return SideCar;
 }
-//#endregion
-//#region node_modules/react-remove-scroll/dist/es2015/medium.js
+// node_modules/react-remove-scroll/dist/es2015/medium.js
 var effectCar = createSidecarMedium();
-//#endregion
-//#region node_modules/react-remove-scroll/dist/es2015/UI.js
+// node_modules/react-remove-scroll/dist/es2015/UI.js
 var nothing = function() {};
 /**
 * Removes scrollbar from the page and contain the scroll within the Lock
@@ -1479,8 +1458,7 @@ RemoveScroll.classNames = {
 var getNonce = function() {
 	if (typeof __webpack_nonce__ !== "undefined") return __webpack_nonce__;
 };
-//#endregion
-//#region node_modules/react-style-singleton/dist/es2015/singleton.js
+// node_modules/react-style-singleton/dist/es2015/singleton.js
 function makeStyleTag() {
 	if (!document) return null;
 	var tag = document.createElement("style");
@@ -1518,8 +1496,7 @@ var stylesheetSingleton = function() {
 		}
 	};
 };
-//#endregion
-//#region node_modules/react-style-singleton/dist/es2015/hook.js
+// node_modules/react-style-singleton/dist/es2015/hook.js
 /**
 * creates a hook to control style singleton
 * @see {@link styleSingleton} for a safer component version
@@ -1540,8 +1517,7 @@ var styleHookSingleton = function() {
 		}, [styles && isDynamic]);
 	};
 };
-//#endregion
-//#region node_modules/react-style-singleton/dist/es2015/component.js
+// node_modules/react-style-singleton/dist/es2015/component.js
 /**
 * create a Component to add styles on demand
 * - styles are added when first instance is mounted
@@ -1557,8 +1533,7 @@ var styleSingleton = function() {
 	};
 	return Sheet;
 };
-//#endregion
-//#region node_modules/react-remove-scroll-bar/dist/es2015/utils.js
+// node_modules/react-remove-scroll-bar/dist/es2015/utils.js
 var zeroGap = {
 	left: 0,
 	top: 0,
@@ -1592,8 +1567,7 @@ var getGapWidth = function(gapMode) {
 		gap: Math.max(0, windowWidth - documentWidth + offsets[2] - offsets[0])
 	};
 };
-//#endregion
-//#region node_modules/react-remove-scroll-bar/dist/es2015/component.js
+// node_modules/react-remove-scroll-bar/dist/es2015/component.js
 var Style = styleSingleton();
 var lockAttribute = "data-scroll-locked";
 var getStyles = function(_a, allowRelative, gapMode, important) {
@@ -1630,8 +1604,7 @@ var RemoveScrollBar = function(_a) {
 	}, [gapMode]);
 	return import_react.createElement(Style, { styles: getStyles(gap, !noRelative, gapMode, !noImportant ? "!important" : "") });
 };
-//#endregion
-//#region node_modules/react-remove-scroll/dist/es2015/aggresiveCapture.js
+// node_modules/react-remove-scroll/dist/es2015/aggresiveCapture.js
 var passiveSupported = false;
 if (typeof window !== "undefined") try {
 	var options = Object.defineProperty({}, "passive", { get: function() {
@@ -1644,8 +1617,7 @@ if (typeof window !== "undefined") try {
 	passiveSupported = false;
 }
 var nonPassive = passiveSupported ? { passive: false } : false;
-//#endregion
-//#region node_modules/react-remove-scroll/dist/es2015/handleScroll.js
+// node_modules/react-remove-scroll/dist/es2015/handleScroll.js
 var alwaysContainsScroll = function(node) {
 	return node.tagName === "TEXTAREA";
 };
@@ -1727,8 +1699,7 @@ var handleScroll = function(axis, endTarget, event, sourceDelta, noOverscroll) {
 	else if (!isDeltaPositive && (noOverscroll && Math.abs(availableScrollTop) < 1 || !noOverscroll && -delta > availableScrollTop)) shouldCancelScroll = true;
 	return shouldCancelScroll;
 };
-//#endregion
-//#region node_modules/react-remove-scroll/dist/es2015/SideEffect.js
+// node_modules/react-remove-scroll/dist/es2015/SideEffect.js
 var getTouchXY = function(event) {
 	return "changedTouches" in event ? [event.changedTouches[0].clientX, event.changedTouches[0].clientY] : [0, 0];
 };
@@ -1882,11 +1853,9 @@ function getOutermostShadowParent(node) {
 	}
 	return shadowParent;
 }
-//#endregion
-//#region node_modules/react-remove-scroll/dist/es2015/sidecar.js
+// node_modules/react-remove-scroll/dist/es2015/sidecar.js
 var sidecar_default = exportSidecar(effectCar, RemoveScrollSideCar);
-//#endregion
-//#region node_modules/react-remove-scroll/dist/es2015/Combination.js
+// node_modules/react-remove-scroll/dist/es2015/Combination.js
 var ReactRemoveScroll = import_react.forwardRef(function(props, ref) {
 	return import_react.createElement(RemoveScroll, __assign({}, props, {
 		ref,
@@ -1894,8 +1863,7 @@ var ReactRemoveScroll = import_react.forwardRef(function(props, ref) {
 	}));
 });
 ReactRemoveScroll.classNames = RemoveScroll.classNames;
-//#endregion
-//#region node_modules/aria-hidden/dist/es2015/index.js
+// node_modules/aria-hidden/dist/es2015/index.js
 var getDefaultParent = function(originalTarget) {
 	if (typeof document === "undefined") return null;
 	return (Array.isArray(originalTarget) ? originalTarget[0] : originalTarget).ownerDocument.body;
@@ -2000,8 +1968,7 @@ var hideOthers = function(originalTarget, parentNode, markerName) {
 	targets.push.apply(targets, Array.from(activeParentNode.querySelectorAll("[aria-live], script")));
 	return applyAttributeToOthers(targets, activeParentNode, markerName, "aria-hidden");
 };
-//#endregion
-//#region node_modules/@radix-ui/react-dialog/dist/index.mjs
+// node_modules/@radix-ui/react-dialog/dist/index.mjs
 var __defProp = Object.defineProperty;
 var __name = (target, value) => __defProp(target, "name", {
 	value,
@@ -2246,5 +2213,4 @@ function getState(open) {
 	return open ? "open" : "closed";
 }
 __name(getState, "getState");
-//#endregion
 export { DialogOverlay as a, require_react_dom as c, DialogDescription as i, DialogClose as n, DialogPortal as o, DialogContent as r, DialogTitle as s, Dialog as t };

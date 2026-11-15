@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/media-DPSB67f5.js
+// node_modules/.nitro/vite/services/ssr/assets/media-SCrbXT2-.js
 var DB_NAME = "ozombol-media";
 var STORE = "blobs";
 function openDb() {
@@ -63,5 +63,4 @@ function compressImage(file) {
 		img.src = url;
 	});
 }
-//#endregion
 export { getMedia as n, putMedia as r, compressImage as t };

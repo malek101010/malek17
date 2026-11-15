@@ -1,11 +1,11 @@
 import { i as __toESM } from "../_runtime.mjs";
+import { _ as priceKindFor, b as useDesk, c as TextArea, i as Field, l as TextInput, m as formatOz, n as CONDITIONS, o as SelectInput, r as Eyebrow, s as Shell, t as Button, y as uid } from "./shell-B_Z_U4m9.mjs";
+import { r as putMedia, t as compressImage } from "./media-SCrbXT2-.mjs";
+import { a as CATEGORIES } from "./router-DMTZ25Iw.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { x as useNavigate } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
-import { a as CONDITIONS, i as CATEGORIES } from "./router-D6UJOlep.mjs";
-import { a as SelectInput, c as TextInput, g as priceKindFor, n as Eyebrow, o as Shell, p as formatOz, r as Field, s as TextArea, t as Button, v as uid, y as useDesk } from "./shell-QKflq9RQ.mjs";
-import { r as putMedia, t as compressImage } from "./media-DPSB67f5.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/list-Cb_aDBFX.js
+// node_modules/.nitro/vite/services/ssr/assets/list-DH4tTWcu.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var BANDS = {
@@ -18,7 +18,8 @@ var BANDS = {
 	Kitchen: [200, 8e3],
 	Art: [300, 25e3],
 	Fashion: [80, 4e3],
-	Outdoors: [150, 7e3]
+	Outdoors: [150, 7e3],
+	Handmade: [80, 6e3]
 };
 var CONDITION_FACTOR = {
 	New: 1.12,
@@ -424,5 +425,4 @@ function ListPage() {
 		]
 	}) });
 }
-//#endregion
 export { ListPage as component };

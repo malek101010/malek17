@@ -1,9 +1,9 @@
+import { a as Oz, g as modeLabel, p as figureLabel } from "./shell-B_Z_U4m9.mjs";
+import { n as Photo } from "./photo-hLfkum1j.mjs";
 import { b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
 import { n as Video } from "../_libs/lucide-react.mjs";
-import { f as figureLabel, h as modeLabel, i as Oz } from "./shell-QKflq9RQ.mjs";
-import { n as Photo } from "./photo-BHU_K5ZP.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/listing-card-CWT0TJqM.js
+// node_modules/.nitro/vite/services/ssr/assets/listing-card-DaY72rzp.js
 var import_jsx_runtime = require_jsx_runtime();
 function ListingCard({ listing }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
@@ -65,5 +65,4 @@ function ListingCard({ listing }) {
 		})]
 	});
 }
-//#endregion
 export { ListingCard as t };

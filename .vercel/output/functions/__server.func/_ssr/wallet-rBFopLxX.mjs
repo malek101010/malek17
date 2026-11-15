@@ -1,8 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
+import { b as useDesk, c as TextArea, f as deskMoney, h as formatWhen, i as Field, l as TextInput, m as formatOz, r as Eyebrow, s as Shell, t as Button } from "./shell-B_Z_U4m9.mjs";
 import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].mjs";
 import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
-import { c as TextInput, d as deskMoney, m as formatWhen, n as Eyebrow, o as Shell, p as formatOz, r as Field, s as TextArea, t as Button, y as useDesk } from "./shell-QKflq9RQ.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/wallet-B43ZbGND.js
+// node_modules/.nitro/vite/services/ssr/assets/wallet-rBFopLxX.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function WalletPage() {
@@ -192,5 +192,4 @@ function WalletPage() {
 		]
 	}) });
 }
-//#endregion
 export { WalletPage as component };

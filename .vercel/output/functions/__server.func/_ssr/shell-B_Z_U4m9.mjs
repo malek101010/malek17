@@ -6,9 +6,16 @@ import { a as Menu, t as X } from "../_libs/lucide-react.mjs";
 import { t as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
 import { n as persist, r as create, t as createJSONStorage } from "../_libs/zustand.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/shell-QKflq9RQ.js
+// node_modules/.nitro/vite/services/ssr/assets/shell-B_Z_U4m9.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
+var CONDITIONS = [
+	"New",
+	"Excellent",
+	"Good",
+	"Fair",
+	"Project"
+];
 function formatOz(value) {
 	return `${new Intl.NumberFormat("en-US").format(value)} 7oz`;
 }
@@ -328,6 +335,24 @@ var SEED_LISTINGS = [
 		appraisal: seen("Marcus Pell", "Looked at the hull repair. It is tidy and dry. Figure is a reference so a direct trade can be judged. Soren will not take 7ozombols.", "in-person", "2026-10-30T14:00:00.000Z"),
 		status: "open",
 		createdAt: "2026-10-30T14:00:00.000Z"
+	},
+	{
+		id: "handmade",
+		owner: "member",
+		sellerName: "Yassin Sherif",
+		title: "Four handmade clay mugs",
+		category: "Handmade",
+		city: "6-october",
+		condition: "New",
+		description: "A set of four clay mugs, thrown and glazed by hand. No two are the same: the rims dip slightly and the glaze runs darker toward the foot. They are food-safe, hold about 300 ml, and have never been used. The set travels in one crate. I will exchange them for another handmade piece, or for 7ozombols.",
+		images: ["/catalog/handmade.jpg"],
+		mode: "either",
+		ozombols: 640,
+		priceKind: "asking",
+		wants: "Another handmade piece, or 7ozombols.",
+		appraisal: seen("Leila Haddad", "Seen on the bench. The glaze is even enough to use, and the figure is for the set of four, not one mug.", "in-person", "2026-11-12T11:00:00.000Z"),
+		status: "open",
+		createdAt: "2026-11-12T11:00:00.000Z"
 	},
 	{
 		id: "you-camera",
@@ -749,5 +774,4 @@ function Shell({ children }) {
 		]
 	});
 }
-//#endregion
-export { statusLabel as _, SelectInput as a, TextInput as c, deskMoney as d, figureLabel as f, priceKindFor as g, modeLabel as h, Oz as i, buttonClass as l, formatWhen as m, Eyebrow as n, Shell as o, formatOz as p, Field as r, TextArea as s, Button as t, cn as u, uid as v, useDesk as y };
+export { priceKindFor as _, Oz as a, useDesk as b, TextArea as c, cn as d, deskMoney as f, modeLabel as g, formatWhen as h, Field as i, TextInput as l, formatOz as m, CONDITIONS as n, SelectInput as o, figureLabel as p, Eyebrow as r, Shell as s, Button as t, buttonClass as u, statusLabel as v, uid as y };

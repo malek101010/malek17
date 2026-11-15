@@ -29,7 +29,7 @@ function Home() {
           <div>
             <Eyebrow>The exchange house</Eyebrow>
             <h1 className="mt-3 text-4xl leading-tight text-ink sm:text-6xl">
-              Bring what you have. Leave with what you both agreed.
+              Bring what you have. Leave with what you both agreed OO.
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
               Offer a house, a car, a camera — whatever is actually yours. Someone offers

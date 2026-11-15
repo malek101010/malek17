@@ -4,7 +4,22 @@ import { S as useRouter, _ as lazyRouteComponent, d as Scripts, f as HeadContent
 import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
 import { r as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-D6UJOlep.js
+// node_modules/.nitro/vite/services/ssr/assets/types-l1aYcI0B.js
+var CONNECTOR_TOKEN_READY_EVENT = "grok:connector-token-ready";
+var CATEGORIES = [
+	"Homes",
+	"Vehicles",
+	"Furniture",
+	"Watches",
+	"Cameras",
+	"Music",
+	"Kitchen",
+	"Art",
+	"Fashion",
+	"Outdoors",
+	"Handmade"
+];
+// node_modules/.nitro/vite/services/ssr/assets/router-DMTZ25Iw.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -93,7 +108,6 @@ function previewPathRewrite() {
 function AuthProvider({ children }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children });
 }
-var CONNECTOR_TOKEN_READY_EVENT = "grok:connector-token-ready";
 function isGrokEmbedderOrigin(origin) {
 	try {
 		const url = new URL(origin);
@@ -405,12 +419,12 @@ var Route$7 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$6 = () => import("./routes-6VBHBqc7.mjs");
+var $$splitComponentImporter$6 = () => import("./routes-Z2IUjFeM.mjs");
 var Route$6 = createFileRoute("/")({
 	head: () => ({ meta: [{ title: "7ozombol — the exchange house" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$6, "component")
 });
-var $$splitComponentImporter$5 = () => import("./list-Cb_aDBFX.mjs");
+var $$splitComponentImporter$5 = () => import("./list-DH4tTWcu.mjs");
 var Route$5 = createFileRoute("/list")({
 	head: () => ({ meta: [{ title: "List a good · 7ozombol" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
@@ -437,26 +451,7 @@ var BANDS = [
 		label: "60,000 and over"
 	}
 ];
-var CATEGORIES = [
-	"Homes",
-	"Vehicles",
-	"Furniture",
-	"Watches",
-	"Cameras",
-	"Music",
-	"Kitchen",
-	"Art",
-	"Fashion",
-	"Outdoors"
-];
-var CONDITIONS = [
-	"New",
-	"Excellent",
-	"Good",
-	"Fair",
-	"Project"
-];
-var $$splitComponentImporter$4 = () => import("./market-B3RmdSb0.mjs");
+var $$splitComponentImporter$4 = () => import("./market-CDx8RNuh.mjs");
 var Route$4 = createFileRoute("/market")({
 	validateSearch: (raw) => {
 		const category = CATEGORIES.find((item) => item === raw.category);
@@ -471,22 +466,22 @@ var Route$4 = createFileRoute("/market")({
 	head: () => ({ meta: [{ title: "Market · 7ozombol" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("./mine-CJ6xAfe1.mjs");
+var $$splitComponentImporter$3 = () => import("./mine-CdhYIhnU.mjs");
 var Route$3 = createFileRoute("/mine")({
 	head: () => ({ meta: [{ title: "My stall · 7ozombol" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./trades-Df7PwinL.mjs");
+var $$splitComponentImporter$2 = () => import("./trades-DjQuDs_K.mjs");
 var Route$2 = createFileRoute("/trades")({
 	head: () => ({ meta: [{ title: "Trades · 7ozombol" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./wallet-B43ZbGND.mjs");
+var $$splitComponentImporter$1 = () => import("./wallet-rBFopLxX.mjs");
 var Route$1 = createFileRoute("/wallet")({
 	head: () => ({ meta: [{ title: "7ozombols · desk" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./listing._id-NA8J-is8.mjs");
+var $$splitComponentImporter = () => import("./listing._id-s0B8dcG1.mjs");
 var Route = createFileRoute("/listing/$id")({
 	head: () => ({ meta: [{ title: "Good · 7ozombol" }] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")
@@ -537,5 +532,4 @@ function getRouter() {
 		defaultErrorComponent: AppErrorComponent
 	});
 }
-//#endregion
-export { CONDITIONS as a, CATEGORIES as i, Route as n, BANDS as o, Route$4 as r, router_exports as t };
+export { CATEGORIES as a, BANDS as i, Route as n, Route$4 as r, router_exports as t };

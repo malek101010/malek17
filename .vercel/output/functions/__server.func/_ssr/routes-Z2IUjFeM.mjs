@@ -1,10 +1,10 @@
+import { t as ListingCard } from "./listing-card-DaY72rzp.mjs";
+import { b as useDesk, r as Eyebrow, s as Shell, u as buttonClass } from "./shell-B_Z_U4m9.mjs";
+import { a as CATEGORIES } from "./router-DMTZ25Iw.mjs";
 import { b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
 import { i as Scale, o as ArrowLeftRight } from "../_libs/lucide-react.mjs";
-import { i as CATEGORIES } from "./router-D6UJOlep.mjs";
-import { l as buttonClass, n as Eyebrow, o as Shell, y as useDesk } from "./shell-QKflq9RQ.mjs";
-import { t as ListingCard } from "./listing-card-CWT0TJqM.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-6VBHBqc7.js
+// node_modules/.nitro/vite/services/ssr/assets/routes-Z2IUjFeM.js
 var import_jsx_runtime = require_jsx_runtime();
 var FEATURED = [
 	"house",
@@ -232,5 +232,4 @@ function Home() {
 		})
 	] }) });
 }
-//#endregion
 export { Home as component };
