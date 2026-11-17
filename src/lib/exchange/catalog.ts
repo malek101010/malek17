@@ -271,14 +271,14 @@ export const SEED_LISTINGS: Listing[] = [
     ),
     status: "open",
     createdAt: "2026-10-30T14:00:00.000Z",
-    
+
   },
   
 
 {
       id: "handmade",
     owner: "member",
-    sellerName: "Yassin Sherif",
+    sellerName: "Malek Alaa",
     title: "Four handmade clay mugs",
     category: "Handmade",
     city: "6-october",
@@ -291,7 +291,7 @@ export const SEED_LISTINGS: Listing[] = [
     priceKind: "asking",
     wants: "Another handmade piece, or 7ozombols.",
     appraisal: seen(
-      "Leila Haddad",
+      "Mariam mostafa",
       "Seen on the bench. The glaze is even enough to use, and the figure is for the set of four, not one mug.",
       "in-person",
       "2026-11-12T11:00:00.000Z",
